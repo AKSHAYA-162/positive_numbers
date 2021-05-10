@@ -1,0 +1,14 @@
+# Python program to print positive Numbers in a range
+
+#entering list
+list1 = []
+list1 = [int(item) for item in input("Enter the list items : ").split()]
+print("THE LIST ITEMS ARE: ",list1)
+
+#positive no's
+num=0
+print("positive numbers :")
+while(num < len(list1)):
+	if list1[num] >= 0:
+		print(list1[num], end=" ")
+	num += 1
